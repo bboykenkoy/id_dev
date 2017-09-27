@@ -29,7 +29,7 @@ let transporter = nodemailer.createTransport({
 });
 //-- FCM
 var FCM = require('fcm-push');
-var serverKey = 'AAAAww8tdbc:APA91bGypdYO0D0YTXiGEltVnswbmcoJAmj_GbA00WrRgUORrk7fdk2q3CKNi_wRHtcAbwYzXme3FDgkbsL-QBSlhxiATw-ax49uXtA6QDZRlGvyfNyup9G-NIAjZ7FGUAQEQgyktMQD';
+var serverKey = config.android;
 var collapse_key = 'com.android.abc';
 var fcm = new FCM(serverKey);
 var avatarApp = "http://i.imgur.com/rt1NU2t.png";

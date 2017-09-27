@@ -6,6 +6,7 @@ var Config = {
   "app_ip"	  :   '10.140.0.2',
   "app_port"  :   '8080',
   "secret"	  :   '@!@aKen2002@!@',
+  "android"   :   'AAAAww8tdbc:APA91bGypdYO0D0YTXiGEltVnswbmcoJAmj_GbA00WrRgUORrk7fdk2q3CKNi_wRHtcAbwYzXme3FDgkbsL-QBSlhxiATw-ax49uXtA6QDZRlGvyfNyup9G-NIAjZ7FGUAQEQgyktMQD',
   "secretAdmin"	  :   '@!@aKen2002Admin@!@'
 };
 module.exports = Config;
